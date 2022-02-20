@@ -16,7 +16,7 @@ const userController = require("./controllers/users");
 
 
 mongoose
-  .connect(`mongodb+srv://${process.env.SECRET_KEY}@cluster0.lrlyi.mongodb.net/wargolf?retryWrites=true&w=majority`, {
+  .connect(`mongodb+srv://luke:tt.112181@cluster0.lrlyi.mongodb.net/wargolf?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
